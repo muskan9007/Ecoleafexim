@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact EcoLeaf Exim">
+  <title>Contact Us | EcoLeaf Exim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ========================================================
+       HEADER
+  ========================================================= -->
+  <header class="header">
+    <div class="container nav-container">
+
+      <a href="index.html" class="logo" aria-label="EcoLeaf Exim home">
+        <span class="logo-icon">🌱</span>
+        <span>
+          <strong>EcoLeaf</strong>
+          <small>EXIM</small>
+        </span>
+      </a>
+
+      <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About Us</a>
+        <a href="index.html#products">Products</a>
+        <a href="index.html#why-us">Why EcoLeaf</a>
+        <a href="contact.html" class="nav-button">Contact Us</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ========================================================
+       CONTACT PAGE INTRO
+  ========================================================= -->
+  <main>
+    <section class="contact-hero">
+      <div class="container">
+        <span class="section-label">GET IN TOUCH</span>
+        <h1>Let's work together.</h1>
+        <p>
+          Have a product inquiry, distribution question, or business
+          requirement? Send us a message.
+        </p>
+      </div>
+    </section>
+
+    <!-- ======================================================
+         CONTACT CONTENT
+    ======================================================= -->
+    <section class="section contact-section">
+      <div class="container contact-grid">
+
+        <div class="contact-info">
+          <span class="section-label">EARTHWISE EXIM</span>
+          <h2>We're here to help.</h2>
+
+          <p>
+            Whether you're looking for bagasse tableware, food
+            containers or distribution opportunities, contact our team.
+          </p>
+
+          <!-- ==================================================
+               COMPANY CONTACT DETAILS
+               Update these values here if the business contact
+               information changes in the future.
+          =================================================== -->
+          <div class="contact-details">
+
+            <div class="contact-detail">
+              <span>✉️</span>
+              <div>
+                <strong>Email</strong>
+                <p><a href="mailto:ecoleafexim@gmail.com">ecoleafexim@gmail.com</a></p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span>📞</span>
+              <div>
+                <strong>Phone</strong>
+                <p><a href="tel:+917779003382">+91 777 900 3382</a></p>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span>📍</span>
+              <div>
+                <strong>Location</strong>
+                <p>India</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ==================================================
+             CONTACT FORM
+        =================================================== -->
+        <div class="contact-form-wrapper">
+
+          <form id="contactForm">
+
+            <div class="form-group">
+              <label for="name">Name <span>*</span></label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                autocomplete="name"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email <span>*</span></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                autocomplete="email"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+1 XXX XXX XXXX"
+                autocomplete="tel"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="reason">Reason for Contact <span>*</span></label>
+              <select id="reason" name="reason" required>
+                <option value="">Select a reason</option>
+                <option value="Product Inquiry">Product Inquiry</option>
+                <option value="Bulk Order">Bulk Order</option>
+                <option value="Distribution Inquiry">Distribution Inquiry</option>
+                <option value="Partnership">Partnership</option>
+                <option value="General Inquiry">General Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="description">Description <span>*</span></label>
+              <textarea
+                id="description"
+                name="description"
+                rows="6"
+                placeholder="Tell us how we can help..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-button">
+              Send Message
+            </button>
+
+            <div id="formMessage" role="status" aria-live="polite"></div>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+  ========================================================= -->
+  <footer class="footer">
+    <div class="container footer-content">
+
+      <div>
+        <a href="index.html" class="footer-logo">🌱 EcoLeaf Exim</a>
+        <p>Manufacturer &amp; Distributor of Bagasse Products</p>
+
+        <!-- Company contact details -->
+        <div class="footer-contact">
+          <a href="tel:+917779003382">📞 +91 777 900 3382</a>
+          <a href="mailto:ecoleafexim@gmail.com">✉️ ecoleafexim@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#products">Products</a>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      © 2026 EcoLeaf Exim. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

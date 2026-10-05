@@ -1,0 +1,15 @@
+{
+  "name": "ecoleaf-exim",
+  "version": "1.0.0",
+  "description": "EcoLeaf Exim - Manufacturer and Distributor of Bagasse Products",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemailer": "^10.0.14"
+  }
+}
