@@ -30,7 +30,7 @@ if (contactForm) {
 
     try {
       // Send the form data to the Node.js backend.
-      const response = await fetch("/api/contact", {
+      const response = await fetch("/.netlify/functions/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
